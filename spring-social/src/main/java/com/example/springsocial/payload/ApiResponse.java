@@ -1,4 +1,4 @@
-package com.example.springsocial.payyload;
+package com.example.springsocial.payload;
 
 import lombok.Getter;
 import lombok.Setter;
@@ -9,7 +9,7 @@ public class ApiResponse {
   private String message;
 
   public ApiResponse(boolean success, String message) {
-      this.success = success;
-      this.message = message;
+    this.success = success;
+    this.message = message;
   }
 }

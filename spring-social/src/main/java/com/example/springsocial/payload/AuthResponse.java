@@ -1,4 +1,4 @@
-package com.example.springsocial.payyload;
+package com.example.springsocial.payload;
 
 import lombok.Getter;
 import lombok.Setter;

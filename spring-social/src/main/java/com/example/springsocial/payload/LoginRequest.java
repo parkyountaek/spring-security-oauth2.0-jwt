@@ -1,4 +1,4 @@
-package com.example.springsocial.payyload;
+package com.example.springsocial.payload;
 
 import javax.validation.constraints.Email;
 import javax.validation.constraints.NotBlank;
@@ -7,10 +7,7 @@ import lombok.Getter;
 import lombok.Setter;
 
 @Getter @Setter
-public class SignUpRequest {
-  @NotBlank
-  private String name;
-
+public class LoginRequest {
   @NotBlank
   @Email
   private String email;
@@ -18,5 +15,4 @@ public class SignUpRequest {
   @NotBlank
   private String password;
 
-  // Getters and Setters (Omitted for brevity)    
 }
